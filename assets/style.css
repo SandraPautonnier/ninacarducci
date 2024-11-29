@@ -22,20 +22,24 @@ body {
 	font-size: 26px;
 }
 
-.nav ul {
+nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
-.nav li {
+nav li {
 	padding-inline: 10px;
 }
 
-.nav a {
+nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+}
+
+nav a:hover {
+	color: #000;
 }
 
 .social-link img {
@@ -97,9 +101,7 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
-.gallery .nav {
-	justify-content: center;
-}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
