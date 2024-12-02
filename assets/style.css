@@ -6,6 +6,9 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+h1, h2, h3 {
+	margin: 0;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
