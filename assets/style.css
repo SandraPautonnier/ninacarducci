@@ -6,8 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-h1, h2, h3 {
+h1 {
 	margin: 0;
+}
+h2 {
+	font-size: 28px;
 }
 .top-header {
 	background-color: white;
@@ -38,7 +41,8 @@ h1, h2, h3 {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 
 .social-link img {
@@ -148,6 +152,8 @@ h1, h2, h3 {
 	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
+	font-size: 40px;
+	margin: 0 0 8px;
 
 }
 .quote__author {
